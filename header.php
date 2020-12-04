@@ -4,7 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
+<style>
+.brand span{
+    font-size: 1.3em;
+    padding: 0px;
+}
+.brand span:nth-child(1){
+    color: red;
+}
+.brand span:nth-child(2){
+    color: green;
+}
+
+</style>
 <body>
     <!-- Header Area Start -->
     <header class="header-area clearfix">
@@ -13,8 +27,12 @@
                 <i class="fa fa-close" aria-hidden="true"></i>
             </div>
             <!-- Logo -->
-            <div class="logo">
-                <a href="index.html"><img src="img/core-img/Logo.png" alt=""></a>
+            <div class="logo" style="margin-bottom: 0px;">
+                <a href="index.html"><img src="img/core-img/Logo.PNG" alt=""></a>
+            </div>
+            <div class="brand"> 
+                <span>Krishna</span> 
+                <span>Creation</span>
             </div>
             <!-- Amado Nav -->
             <nav class="amado-nav">

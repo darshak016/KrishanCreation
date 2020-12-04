@@ -19,7 +19,12 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-
+<style>
+.whatsapp{
+    background-color: #25d366; 
+    magin-top: 10px;
+}
+</style>
 <body>
     <!-- Search Wrapper Area Start -->
     <div class="search-wrapper section-padding-100">
@@ -64,7 +69,7 @@
         <div class="single-product-area section-padding-100 clearfix">
             <div class="container-fluid">
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-12">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mt-50">
@@ -75,7 +80,7 @@
                             </ol>
                         </nav>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-12 col-lg-7">
@@ -134,12 +139,13 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
-                                    <div class="review">
+                                    <!-- <div class="review">
                                         <a href="#">Write A Review</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- Avaiable -->
                                 <p class="avaibility"><i class="fa fa-circle"></i> In Stock</p>
+                                <p class="avaibility"><i class="fa fa-circle" style="color: red;"></i> Out Of Stock</p>
                             </div>
 
                             <div class="short_overview my-5">
@@ -156,7 +162,8 @@
                                         <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-caret-up" aria-hidden="true"></i></span>
                                     </div>
                                 </div>
-                                <button type="submit" name="addtocart" value="5" class="btn amado-btn">Add to cart</button>
+                                <button type="submit" name="addtocart" value="5" class="btn amado-btn">Add to cart</button> 
+                                <button type="submit" name="addtocart" value="5" class="btn amado-btn whatsapp"> <i class="fa fa-whatsapp" style="font-size:2em;"></i> Contect For Bulk Order</button>
                             </form>
 
                         </div>
